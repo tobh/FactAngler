@@ -1,0 +1,14 @@
+<module>
+  <!-- Inherit the core Web Toolkit stuff.                  -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Specify the app entry point class.                   -->
+  <entry-point class='org.mylan.openie.client.OpenIE'/>
+
+  <source path="client/"/>
+  <source path="shared/"/>
+
+  <stylesheet src="OpenIE.css"/>
+
+  <servlet path="/relationSearch" class="org.mylan.openie.server.RelationSearchServiceImpl"/>
+</module>

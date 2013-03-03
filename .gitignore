@@ -1,0 +1,14 @@
+*.class
+prj.el
+target
+.classpath
+.project
+.settings
+src/main/resources
+.gwt-cache
+tomcat
+www
+OpenIE-compile
+OpenIE-shell
+index.properties
+log4j.properties

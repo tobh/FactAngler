@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>RelationSearch</servlet-name>
+    <servlet-class>
+      org.mylan.openie.server.RelationSearchServiceImpl
+    </servlet-class>
+    <!--    <load-on-startup>1</load-on-startup> -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RelationSearch</servlet-name>
+    <url-pattern>/relationSearch</url-pattern>
+  </servlet-mapping>
+</web-app>
